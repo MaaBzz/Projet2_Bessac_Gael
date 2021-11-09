@@ -1,3 +1,6 @@
-h1 {
-   color: red;
+@font-face
+{
+    font-family: 'Raleway';
+    src: url('polices/Raleway-Italic-VariableFont_wght.ttf')format('ttf')
+         url('polices/Raleway-VariableFont_wght.ttf')format('ttf')
 }
