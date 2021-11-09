@@ -4,3 +4,12 @@
     src: url('polices/Raleway-Italic-VariableFont_wght.ttf') format('ttf')
          url('polices/Raleway-VariableFont_wght.ttf') format('ttf')
 }
+body
+{
+   display: flex;
+}
+#page
+{
+   width: 992px;
+   margin: auto;
+}
