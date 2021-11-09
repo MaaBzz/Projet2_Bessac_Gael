@@ -13,3 +13,14 @@ body
    width: 992px;
    margin: auto;
 }
+body
+{
+   font-family: 'Raleway', serif;
+   font-weight: normal;
+}
+nav ul
+{
+   list-style-type: none;
+   display: flex;
+   padding-left: 100%;
+}
