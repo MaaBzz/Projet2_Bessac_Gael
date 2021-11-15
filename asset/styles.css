@@ -18,9 +18,19 @@ body
    font-family: 'Raleway', serif;
    font-weight: normal;
 }
+header
+{
+   display: flex;
+   justify-content: justify;
+   align-items: flex-end;
+}
 nav ul
 {
    list-style-type: none;
    display: flex;
    padding-left: 100%;
+}
+nav li
+{
+   margin-right: 40px;
 }
