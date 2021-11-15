@@ -57,14 +57,44 @@ p
 {
    font-size: 15px;
 }
+#localisation
+{
+   display: flex;
+   justify-content: justify;
+   align-items: flex-end;
+   text-align: center;
+}
 #localisation i
 {
-   height: 25px;
-   width: 25px;
-   border: 3px solid #0065FC;
+   height: 35px;
+   width: 35px;
+   border-left: 2px solid #E1E1E1;
+   border-top: 2px solid #E1E1E1;
+   border-bottom: 2px solid #E1E1E1;
    border-radius: 6px 0px 0px 6px;
+   background-color: #E1E1E1;
+   font-size: 19px;
 }
-.fasfa-map-marker-alt
+#marseille
 {
-   width: 100px;
+   height: 35px;
+   width: 205px;
+   border-top: 2px solid #E1E1E1;
+   border-bottom: 2px solid #E1E1E1;
+   border-left: 2px solid #E1E1E1;
+   font-size: 16px;
+}
+#bouton_bleu
+{
+   height: 35px;
+   width: 95px;
+   border: 2px solid #0065FC;
+   border-radius: 0px 6px 6px 0px;
+   background-color: #0065FC;
+}
+#bouton_bleu a
+{
+   font-size: 16px;
+   text-decoration: none;
+   color: white;
 }
