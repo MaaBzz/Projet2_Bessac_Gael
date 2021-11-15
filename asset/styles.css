@@ -1,8 +1,8 @@
 @font-face
 {
     font-family: 'Raleway';
-    src: url('polices/Raleway-Italic-VariableFont_wght.ttf') format('ttf')
-         url('polices/Raleway-VariableFont_wght.ttf') format('ttf')
+    src: url('asset/fonts/Raleway-Italic-VariableFont_wght.ttf') format('ttf')
+         url('asset/fonts/Raleway-VariableFont_wght.ttf') format('ttf')
 }
 body
 {
@@ -15,7 +15,7 @@ body
 }
 body
 {
-   font-family: 'Raleway', serif;
+   font-family: 'Raleway', sans-serif;
    font-weight: normal;
 }
 header
@@ -30,5 +30,17 @@ nav ul
 }
 nav li
 {
-   margin-left: 40px;
+   margin-right: 50px;
+}
+nav a
+{
+   font-size: 17px;
+   color: black;
+   text-decoration: none;
+}
+nav a:hover
+{
+   color:#0065FC;
+   border-top: 2px solid #0065FC;
+   padding-top: 22px;
 }
