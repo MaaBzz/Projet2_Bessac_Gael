@@ -13,6 +13,11 @@ body
    width: 992px;
    margin: auto;
 }
+.booki
+{
+   width: 60%;
+   padding-bottom: 20px;
+}
 body
 {
    font-family: 'Raleway', sans-serif;
@@ -43,4 +48,23 @@ nav a:hover
    color:#0065FC;
    border-top: 2px solid #0065FC;
    padding-top: 22px;
+}
+h1
+{
+   font-size: 16px;
+}
+p
+{
+   font-size: 15px;
+}
+#localisation i
+{
+   height: 25px;
+   width: 25px;
+   border: 3px solid #0065FC;
+   border-radius: 6px 0px 0px 6px;
+}
+.fasfa-map-marker-alt
+{
+   width: 100px;
 }
