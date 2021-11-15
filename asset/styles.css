@@ -21,16 +21,14 @@ body
 header
 {
    display: flex;
-   justify-content: justify;
-   align-items: flex-end;
 }
 nav ul
 {
    list-style-type: none;
    display: flex;
-   padding-left: 100%;
+   padding-left: 500px;
 }
 nav li
 {
-   margin-right: 40px;
+   margin-left: 40px;
 }
