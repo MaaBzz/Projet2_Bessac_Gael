@@ -63,38 +63,93 @@ p
    justify-content: justify;
    align-items: flex-end;
    text-align: center;
+   margin-top: 20px;
+   margin-bottom: 20px;
 }
 #localisation i
 {
-   height: 35px;
+   height: 27px;
    width: 35px;
-   border-left: 2px solid #E1E1E1;
-   border-top: 2px solid #E1E1E1;
-   border-bottom: 2px solid #E1E1E1;
-   border-radius: 6px 0px 0px 6px;
-   background-color: #E1E1E1;
-   font-size: 19px;
+   border-left: 2px solid #F4F4F4;
+   border-top: 2px solid #F4F4F4;
+   border-bottom: 2px solid #F4F4F4;
+   border-radius: 10px 0px 0px 10px;
+   background-color: #F4F4F4;
+   font-size: 15px;
+   padding-top: 7px;
 }
 #marseille
 {
-   height: 35px;
+   height: 27px;
    width: 205px;
-   border-top: 2px solid #E1E1E1;
-   border-bottom: 2px solid #E1E1E1;
-   border-left: 2px solid #E1E1E1;
+   border-top: 2px solid #F4F4F4;
+   border-bottom: 2px solid #F4F4F4;
+   border-left: 2px solid #F4F4F4;
    font-size: 16px;
+   padding-top: 7px;
 }
 #bouton_bleu
 {
-   height: 35px;
+   height: 27px;
    width: 95px;
    border: 2px solid #0065FC;
-   border-radius: 0px 6px 6px 0px;
+   border-radius: 0px 10px 10px 0px;
    background-color: #0065FC;
+   padding-top: 7px;
 }
 #bouton_bleu a
 {
    font-size: 16px;
    text-decoration: none;
    color: white;
+}
+#filtres
+{
+   display: flex;
+   justify-content: justify;
+   align-items: flex-end;
+   text-align: center;
+   font-size: 16px;
+}
+#filtres span
+{
+   padding-bottom: 12px;
+}
+#filtre1 i
+{
+   height: 30px;
+   width: 36px;
+   border: 3px solid #DEEBFF;
+   margin-left: 30px;
+   border-radius: 20px 20px 20px 20px;
+   background-color: #DEEBFF;
+   padding-top: 6px;
+}
+#filtre1 a
+{
+   height: 30px;
+   width: 205px;
+   border: 2px solid #DBDBDB;
+   border-radius: 20px 20px 20px 20px;
+   padding-top: 6px;
+   padding-bottom: 12px;
+}
+#filtre2 i
+{
+   height: 30px;
+   width: 36px;
+   border: 3px solid #DEEBFF;
+   margin-left: 30px;
+   border-radius: 20px 20px 20px 20px;
+   background-color: #DEEBFF;
+   padding-top: 6px;
+}
+#filtre2 a
+{
+   height: 30px;
+   width: 500px;
+   border: 2px solid #DBDBDB;
+   border-radius: 20px 20px 20px 20px;
+   padding-top: 6px;
+   padding-bottom: 12px;
 }
