@@ -26,6 +26,7 @@ body
 header
 {
    display: flex;
+   width: 100%;
 }
 nav ul
 {
@@ -139,8 +140,8 @@ section
 }
 article
 {
-   height: 430px;
-   width: 550px;
+   height: 435px;
+   width: 992px;
    padding-left: 25px;
    padding-top: 5px;
    background-color: #F4F4F4;
@@ -158,13 +159,13 @@ article
 {
    background-color: white;
    height: 130px;
-   width: 170px;
+   width: 30%;
    border-radius: 20px;
 }
 aside
 {
-   height: 436px;
-   width: 300px;
+   height: 441px;
+   width: 400px;
    background-color: #F4F4F4;
    border-radius: 20px;
    margin-left: 30px;
@@ -190,8 +191,43 @@ h4
 #les_plus_populaires p
 {
    background-color: white;
-   height: 90px;
-   width: 250px;
+   height: 88px;
+   width: 210px;
    border-radius: 20px;
    margin-left: 10px;
+}
+#Activités
+{
+   display: flex;
+   height: 400px;
+   width: 100%;
+   background-color: yellow;
+}
+footer
+{
+   display: flex;
+   padding-top: 10px;
+   background-color: #F4F4F4;
+}
+footer p
+{
+   font-size: 14px;
+}
+footer h5
+{
+   font-size: 15px;
+}
+#A_propos
+{
+   width: 33%;
+   margin-left: 40px;
+   margin-bottom: 25px;
+}
+#Nos_hébergements
+{
+   width: 33%
+}
+#Assistance
+{
+   width: 33%;
 }
