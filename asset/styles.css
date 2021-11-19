@@ -140,7 +140,7 @@ section
 }
 article
 {
-   height: 435px;
+   height: 450px;
    width: 992px;
    padding-left: 25px;
    padding-top: 5px;
@@ -154,18 +154,38 @@ article
    display: flex;
    flex-wrap: wrap;
    justify-content: space-between;
+   margin-top: -15px;
+   margin-right: -10px;
 }
 #les_hebergements p
 {
+   text-align: justify;
    background-color: white;
-   height: 130px;
-   width: 30%;
+   height: 165px;
+   width: 200px;
    border-radius: 20px;
+   padding-left: 5px;
+}
+#les_hebergements img
+{
+   width: 98%;
+   height: 60%;
+   border-radius: 15px 15px 0px 0px;
+   margin-top: 5px;
+}
+#les_plus_populaires img
+{
+   width: 100px;
+   height: 85%;
+   border-radius: 15px 0px 0px 15px;
+   margin-top: 5px;
+   margin-left: 5px;
+   margin-bottom: 5px;
 }
 aside
 {
    height: 441px;
-   width: 400px;
+   width: 460px;
    background-color: #F4F4F4;
    border-radius: 20px;
    margin-left: 30px;
@@ -183,18 +203,23 @@ h4
    display: flex;
    flex-wrap: wrap;
    position: absolute;
-   top: 4%;
+   top: 5%;
    left: 87%;
    font-size: 16px;
    justify-content: space-between;
 }
+h2
+{
+   font-size: 16px;
+   margin-top: 20px;
+}
 #les_plus_populaires p
 {
    background-color: white;
-   height: 88px;
-   width: 210px;
+   text-align: left;
+   height: 130px;
+   width: 230px;
    border-radius: 20px;
-   margin-left: 10px;
 }
 #Activités
 {
