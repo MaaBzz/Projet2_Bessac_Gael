@@ -113,7 +113,7 @@ p1
    display: flex;
    font-size: 16px;
    position: absolute;
-   padding-top: 6px;
+   padding-top: 10px;
 }
 .titre
 {
@@ -218,7 +218,7 @@ p1
 }
 p1
 {
-   padding-top: 25px;
+   padding-top: 35px;
    display: flex;
    justify-content: justify;
    align-items: flex-end;
