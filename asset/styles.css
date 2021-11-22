@@ -114,6 +114,12 @@ p1
    text-align: center;
    font-size: 16px;
 }
+.info
+{
+   display: flex;
+   position: relative;
+   bottom: 2px;
+}
 p1
 {
    display: flex;
@@ -161,17 +167,47 @@ article
 {
    text-align: justify;
    background-color: white;
-   height: 165px;
-   width: 200px;
+   height: 170px;
+   width: 180px;
    border-radius: 20px;
-   padding-left: 3px;
+   padding-left: 5px;
+   padding-right: 5px;
+   padding-top: 1px;
+   margin-right: 13px;
+   box-shadow: 1px 1px 10px gray;
 }
 #les_hebergements img
 {
-   width: 98%;
-   height: 60%;
+   object-fit: cover;
+   height: 95px;
+   width: 100%;
    border-radius: 15px 15px 0px 0px;
    margin-top: 4px;
+}
+.nom
+{
+   display: flex;
+   flex-wrap: wrap;
+   position: relative;
+   left: 7px;
+   font-size: 13px;
+   font-weight: bold;
+}
+.nuit
+{
+   display: flex;
+   flex-wrap: wrap;
+   position: relative;
+   left: 7px;
+   top: 5px;
+}
+.étoile
+{
+   display: flex;
+   flex-wrap: wrap;
+   position: relative;
+   left: 7px;
+   top: 12px;
 }
 #les_plus_populaires img
 {
@@ -227,7 +263,7 @@ h4
    display: flex;
    flex-wrap: wrap;
    position: absolute;
-   top: 5%;
+   top: 23px;
    left: 87%;
    font-size: 16px;
    justify-content: space-between;
@@ -247,6 +283,7 @@ h2
    border-radius: 20px;
    margin-bottom: -10px;
    padding-top: 5px;
+   box-shadow: 1px 1px 10px gray;
 }
 #Activités
 {
