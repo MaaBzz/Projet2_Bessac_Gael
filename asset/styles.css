@@ -227,7 +227,85 @@ h2
 #Activités
 {
    display: flex;
+   justify-content: space-between;
    height: 400px;
+   width: 100%;
+   position: relative;
+}
+#Activités
+{
+   
+   text-align: justify;
+   padding-bottom: 30px;
+}
+#p1
+{
+   height: 100%;
+   width: 25%;
+   background-color: brown;
+   padding-left: 20px;
+   padding-right: 20px;
+}
+#img1
+{
+   object-fit: cover;
+   height: 360px;
+   width: 100%;
+}
+#p2
+{
+   height: 100%;
+   width: 25%;
+   background-color: chocolate;
+   flex-direction: column;
+   justify-content: space-between;
+   padding-left: 20px;
+   padding-right: 20px;
+}
+#img2
+{
+   object-fit: cover;
+   height: 160px;
+   width: 100%;
+}
+#img3
+{
+   object-fit: cover;
+   height: 160px;
+   width: 100%;
+}
+#p3
+{
+   height: 100%;
+   width: 25%;
+   background-color: brown;
+   padding-left: 20px;
+   padding-right: 20px;
+}
+#img4
+{
+   object-fit: cover;
+   height: 360px;
+   width: 100%;
+}
+#p4
+{
+   height: 100%;
+   width: 25%;
+   background-color: brown;
+   padding-left: 20px;
+   padding-right: 20px;
+}
+#img5
+{
+   object-fit: cover;
+   height: 160px;
+   width: 100%;
+}
+#img6
+{
+   object-fit: cover;
+   height: 160px;
    width: 100%;
 }
 footer
@@ -257,25 +335,4 @@ footer h5
 #Assistance
 {
    width: 33%;
-}
-#Activités p1
-{
-   display: flex;
-   text-align: justify;
-   height: 100px;
-   width: 80px;
-   background-color: yellow;
-}
-#Activités p2
-{
-   display: flex;
-   text-align: justify;
-   height: 100px;
-   width: 80px;
-   background-color: blue;
-}
-#activités img
-{
-   height: 90%;
-   width: 40%;
 }
