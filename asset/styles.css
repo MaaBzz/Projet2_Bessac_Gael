@@ -176,11 +176,35 @@ article
 #les_plus_populaires img
 {
    float: left;
-   width: 105px;
-   height: 105px;
+   object-fit: cover;
+   height: 120px;
+   width: 40%;
    border-radius: 15px 0px 0px 15px;
-   margin-top: 1px;
    margin-left: 5px;
+}
+.premier
+{
+   display: flex;
+   flex-wrap: wrap;
+   position: relative;
+   top: 8px;
+   left: 11px;
+   font-size: 15px;
+   font-weight: bold;
+}
+.prix
+{
+   display: flex;
+   flex-wrap: wrap;
+   position: relative;
+   left: 11px;
+}
+.star
+{
+   position: relative;
+   left: 11px;
+   top: 14px;
+   font-size: 11px;
 }
 aside
 {
