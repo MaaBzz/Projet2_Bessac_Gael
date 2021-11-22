@@ -232,6 +232,7 @@ h2
    width: 100%;
    text-align: left;
    padding-bottom: 30px;
+   padding-top: 15px;
 }
 #p1
 {
@@ -239,6 +240,14 @@ h2
    width: 23%;
    box-shadow: 1px 1px 10px gray;
    border-radius: 20px;
+}
+.vieux
+{
+   position: relative;
+   top: 8px;
+   left: 15px;
+   font-size: 15px;
+   font-weight: bold;
 }
 #img1
 {
@@ -253,6 +262,22 @@ h2
    height: 386px;
    width: 22%;
    margin-top: -17px;
+}
+.fort
+{
+   position: relative;
+   top: 3px;
+   left: 15px;
+   font-size: 15px;
+   font-weight: bold;
+}
+.iles
+{
+   position: relative;
+   top: 3px;
+   left: 15px;
+   font-size: 15px;
+   font-weight: bold;
 }
 #p2 p
 {
@@ -284,6 +309,14 @@ h2
    box-shadow: 1px 1px 10px gray;
    border-radius: 20px;
 }
+.parc
+{
+   position: relative;
+   top: 6px;
+   left: 10px;
+   font-size: 15px;
+   font-weight: bold;
+}
 #img4
 {
    object-fit: cover;
@@ -297,6 +330,22 @@ h2
    height: 400px;
    width: 22%;
    margin-top: -17px;
+}
+.notre
+{
+   position: relative;
+   top: 3px;
+   left: 15px;
+   font-size: 15px;
+   font-weight: bold;
+}
+.longchamp
+{
+   position: relative;
+   top: 2px;
+   left: 15px;
+   font-size: 15px;
+   font-weight: bold;
 }
 #p4 p
 {
