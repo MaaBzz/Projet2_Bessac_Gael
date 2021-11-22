@@ -90,6 +90,8 @@ p1
    border-left: 2px solid #F4F4F4;
    font-size: 16px;
    padding-top: 7px;
+   font-weight: bold;
+   margin-left: -25px;
 }
 #bouton_bleu
 {
@@ -109,19 +111,114 @@ p1
 #filtres
 {
    display: flex;
-   justify-content: justify;
-   align-items: flex-end;
-   text-align: center;
    font-size: 16px;
+   position: absolute;
+   padding-top: 6px;
+}
+.titre
+{
+   display: flex;
+   position: relative;
+   font-weight: bold;
+   font-size: 17px;
+}
+#filtre1 .ig
+{
+   position: relative;
+   z-index: 1;
+   border: 2px solid #DEEBFF;
+   border-radius: 50%;
+   font-size: 15px;
+   padding: 10px;
+   margin-left: 10px;
+   background-color: #DEEBFF;
+}
+#filtre1 a
+{
+   text-decoration: none;
+   margin-left: -42px;
+   color: black;
+   font-weight: bold;
+   font-size: 14px;
+   padding: 10.5px 13px 10px 50px;
+   border: 2px solid #E6E6E6;
+   border-radius: 20px 20px 20px 20px;
+}
+#filtre2 .ig
+{
+   position: relative;
+   z-index: 1;
+   border: 2px solid #DEEBFF;
+   border-radius: 50%;
+   font-size: 15px;
+   padding: 10px 12px 10px 12px;
+   margin-left: 20px;
+   background-color: #DEEBFF;
+}
+#filtre2 a
+{
+   text-decoration: none;
+   margin-left: -39px;
+   color: black;
+   font-weight: bold;
+   font-size: 14px;
+   padding: 10.5px 15px 10px 47px;
+   border: 2px solid #E6E6E6;
+   border-radius: 20px 20px 20px 20px;
+}
+#filtre3 .ig
+{
+   position: relative;
+   z-index: 1;
+   border: 2px solid #DEEBFF;
+   border-radius: 50%;
+   font-size: 15px;
+   padding: 10px 12px 10px 12px;
+   margin-left: 20px;
+   background-color: #DEEBFF;
+}
+#filtre3 a
+{
+   text-decoration: none;
+   margin-left: -39px;
+   color: black;
+   font-weight: bold;
+   font-size: 14px;
+   padding: 10.5px 15px 10px 47px;
+   border: 2px solid #E6E6E6;
+   border-radius: 20px 20px 20px 20px;
+}
+#filtre4 .ig
+{
+   position: relative;
+   z-index: 1;
+   border: 2px solid #DEEBFF;
+   border-radius: 50%;
+   font-size: 15px;
+   padding: 10px 12px 10px 12px;
+   margin-left: 20px;
+   background-color: #DEEBFF;
+}
+#filtre4 a
+{
+   text-decoration: none;
+   margin-left: -39px;
+   color: black;
+   font-weight: bold;
+   font-size: 14px;
+   padding: 10.5px 15px 10px 47px;
+   border: 2px solid #E6E6E6;
+   border-radius: 20px 20px 20px 20px;
 }
 .info
 {
    display: flex;
    position: relative;
-   bottom: 2px;
+   bottom: 3px;
 }
 p1
 {
+   padding-top: 25px;
    display: flex;
    justify-content: justify;
    align-items: flex-end;
@@ -189,7 +286,7 @@ article
    display: flex;
    flex-wrap: wrap;
    position: relative;
-   left: 7px;
+   left: 9px;
    font-size: 13px;
    font-weight: bold;
 }
@@ -198,7 +295,7 @@ article
    display: flex;
    flex-wrap: wrap;
    position: relative;
-   left: 7px;
+   left: 9px;
    top: 5px;
 }
 .étoile
@@ -206,8 +303,9 @@ article
    display: flex;
    flex-wrap: wrap;
    position: relative;
-   left: 7px;
-   top: 12px;
+   left: 9px;
+   top: 15px;
+   font-size: 11px;
 }
 #les_plus_populaires img
 {
