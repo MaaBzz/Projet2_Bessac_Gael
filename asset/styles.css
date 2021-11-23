@@ -588,3 +588,44 @@ footer h5
 {
    width: 33%;
 }
+@media (max-width: 425px)
+{
+   #page
+   {
+      width: 100%;
+      margin: auto;
+   }
+   header
+   {
+      display: block;
+   }
+   .booki
+   {
+      width: 40%;
+      padding: 0px 100px 0px 140px;
+   }
+   #bloc_haut_de_page
+   {
+      width: auto;
+   }
+   nav ul
+   {
+      width: 100%;
+      padding-left: 0px;
+      padding-bottom: 10px;
+      border-bottom: 3px solid #F4F4F4;
+   }
+   nav li
+   {
+      padding-right: 50px;
+   }
+   nav a:hover
+   {
+      color: #0065FC;
+      padding-bottom: 10px;
+      border-bottom: 3px solid #0065FC;
+      border-top: white;
+      padding-left: 30px;
+      padding-right: 30px;
+   }
+}
