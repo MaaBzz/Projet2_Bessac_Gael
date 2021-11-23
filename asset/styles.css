@@ -216,7 +216,7 @@ p1
    position: relative;
    bottom: 3px;
 }
-p1
+#info_filtre p
 {
    padding-top: 35px;
    display: flex;
@@ -224,7 +224,7 @@ p1
    align-items: flex-end;
    text-align: center;
 }
-p1 i
+#info_filtre p i
 {
    margin-right: 8px;
    height: 17px;
@@ -372,6 +372,12 @@ h4
    justify-content: space-between;
 }
 h2
+{
+   padding-left: 5px;
+   font-size: 16px;
+   margin-top: 20px;
+}
+h3
 {
    padding-left: 5px;
    font-size: 16px;
