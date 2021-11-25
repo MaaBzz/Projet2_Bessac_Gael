@@ -704,7 +704,17 @@ footer h5
    {
       position: relative;
       top: 170px;
-      height: 1500px;
+      height: 2500px;
+   }
+   article
+   {
+      position: relative;
+      top: 600px
+   }
+   aside
+   {
+      position: relative;
+      left: -300px;
    }
    #Activités
    {
