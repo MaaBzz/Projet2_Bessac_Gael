@@ -593,7 +593,6 @@ footer h5
    #page
    {
       width: 100%;
-      margin: auto;
    }
    header
    {
@@ -627,5 +626,132 @@ footer h5
       border-top: white;
       padding-left: 30px;
       padding-right: 30px;
+   }
+   #filtres
+   {
+      position: absolute;
+      width: 100%;
+   }
+   .titre
+   {
+      position: relative;
+      left: 10px;
+   }
+   #filtre1 .ig
+   {
+      position: relative;
+      top: 45px;
+      left: -55px;
+   }
+   #filtre1 a
+   {
+      position: relative;
+      top: 26px;
+   }
+   #filtre2 .ig
+   {
+      position: relative;
+      top: 45px;
+   }
+   #filtre2 a
+   { 
+      position: relative;
+      top: 26px;
+      left: 60px;
+   }
+   #filtre3 .ig
+   {
+      position: relative;
+      top: 95px;
+      right: 257px;
+   }
+   #filtre3 a
+   {
+      position: relative;
+      top: 76px;
+      right: 190px;
+   }
+   #filtre4 .ig
+   {
+      position: relative;
+      top: 145px;
+      right: 368px;
+   }
+   #filtre4 a
+   {
+      display: flex;
+      position: relative;
+      width: 130px;
+      height: 17px;
+      top: 115px;
+      right: 300px;
+   }
+   #info_filtre
+   {
+      position: relative;
+      height: 80px;
+      top: 150px;
+      left: 10px;
+   }
+   .info
+   {
+      position: relative;
+      font-size: 17px;
+      top: 19px;
+      left: -17px;
+   }
+   section
+   {
+      position: relative;
+      top: 170px;
+      height: 1500px;
+   }
+   #Activités
+   {
+      position: relative;
+      flex-direction: column;
+      justify-content: center;
+      height: 1600px;
+      width: 350%;
+      left: 35px;
+   }
+   #p1
+   {
+      height: 180px;
+      margin-bottom: 20px;
+   }
+   #img1
+   {
+      height: 140px;
+   }
+   #p2
+   {
+      width: 315px;
+      margin-bottom: 50px;
+   }
+   #img2
+   {
+      height: 150px;
+   }
+   #img3
+   {
+      height: 150px;
+   }
+   footer
+   {
+      display: flex;
+      flex-direction: column;
+      height: 520px;
+      width: 250%;
+   }
+   #Nos_hébergements
+   {
+      position: relative;
+      left: 40px;
+   }
+   #Assistance
+   {
+      position: relative;
+      left: 40px;
    }
 }
