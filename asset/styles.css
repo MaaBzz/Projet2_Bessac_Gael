@@ -588,8 +588,12 @@ footer h5
 {
    width: 33%;
 }
-@media (max-width: 425px)
+@media screen and (max-width: 425px)
 {
+   body
+   {
+      width: 100%;
+   }
    #page
    {
       width: 100%;
@@ -778,10 +782,10 @@ footer h5
    }
    footer
    {
-      display: flex;
+      margin-left: -10px;
       flex-direction: column;
-      height: 520px;
-      width: 250%;
+      height: 550px;
+      width: 110%;
    }
    #Nos_hébergements
    {
