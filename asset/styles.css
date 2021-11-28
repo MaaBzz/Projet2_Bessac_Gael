@@ -1,8 +1,26 @@
 @font-face
 {
     font-family: 'Raleway';
-    src: url('asset/fonts/Raleway-Italic-VariableFont_wght.ttf') format('ttf')
-         url('asset/fonts/Raleway-VariableFont_wght.ttf') format('ttf')
+    src: url('Font/Raleway.ttf'),
+            url('Font/Raleway-Black.ttf'),
+            url('Font/Raleway-BlackItalic.ttf'),
+            url('Font/Raleway-Bold.ttf'),
+            url('Font/Raleway-BoldItalic.ttf'),
+            url('Font/Raleway-ExtraBold.ttf'),
+            url('Font/Raleway-ExtraBoldItalic.ttf'),
+            url('Font/Raleway-ExtraLight.ttf'),
+            url('Font/Raleway-ExtraLightItalic.ttf'),
+            url('Font/Raleway-Italic'),
+            url('Font/Raleway-Italic-VariableFont_wght.ttf'),
+            url('Font/Raleway-Light.ttf'),
+            url('Font/Raleway-LightItalic.ttf'),
+            url('Font/Raleway-Medium.ttf'),
+            url('Font/Raleway-MediumItalic.ttf'),
+            url('Font/Raleway-Regular.ttf'),
+            url('Font/Raleway-SemiBold.ttf'),
+            url('Font/Raleway-SemiBoldItalic.ttf'),
+            url('Font/Raleway-Thin.ttf'),
+            url('Font/Raleway-ThinItalic.ttf');
 }
 body
 {
