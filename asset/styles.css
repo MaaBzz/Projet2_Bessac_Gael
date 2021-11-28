@@ -608,14 +608,6 @@ footer h5
 }
 @media screen and (max-width: 425px)
 {
-   body
-   {
-      width: 100%;
-   }
-   #page
-   {
-      width: 100%;
-   }
    header
    {
       display: block;
@@ -627,7 +619,7 @@ footer h5
    }
    #bloc_haut_de_page
    {
-      width: auto;
+      widt
    }
    nav ul
    {
