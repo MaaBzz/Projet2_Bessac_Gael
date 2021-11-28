@@ -1,26 +1,26 @@
 @font-face
 {
     font-family: 'Raleway';
-    src: url('Font/Raleway.ttf'),
-            url('Font/Raleway-Black.ttf'),
-            url('Font/Raleway-BlackItalic.ttf'),
-            url('Font/Raleway-Bold.ttf'),
-            url('Font/Raleway-BoldItalic.ttf'),
-            url('Font/Raleway-ExtraBold.ttf'),
-            url('Font/Raleway-ExtraBoldItalic.ttf'),
-            url('Font/Raleway-ExtraLight.ttf'),
-            url('Font/Raleway-ExtraLightItalic.ttf'),
-            url('Font/Raleway-Italic'),
-            url('Font/Raleway-Italic-VariableFont_wght.ttf'),
-            url('Font/Raleway-Light.ttf'),
-            url('Font/Raleway-LightItalic.ttf'),
-            url('Font/Raleway-Medium.ttf'),
-            url('Font/Raleway-MediumItalic.ttf'),
-            url('Font/Raleway-Regular.ttf'),
-            url('Font/Raleway-SemiBold.ttf'),
-            url('Font/Raleway-SemiBoldItalic.ttf'),
-            url('Font/Raleway-Thin.ttf'),
-            url('Font/Raleway-ThinItalic.ttf');
+    src: url('asset/fonts/Raleway.ttf'),
+            url('asset/fonts/Raleway-Black.ttf'),
+            url('asset/fonts/Raleway-BlackItalic.ttf'),
+            url('asset/fonts/Raleway-Bold.ttf'),
+            url('asset/fonts/Raleway-BoldItalic.ttf'),
+            url('asset/fonts/Raleway-ExtraBold.ttf'),
+            url('asset/fonts/Raleway-ExtraBoldItalic.ttf'),
+            url('asset/fonts/Raleway-ExtraLight.ttf'),
+            url('asset/fonts/Raleway-ExtraLightItalic.ttf'),
+            url('asset/fonts/Raleway-Italic'),
+            url('asset/fonts/Raleway-Italic-VariableFont_wght.ttf'),
+            url('asset/fonts/Raleway-Light.ttf'),
+            url('asset/fonts/Raleway-LightItalic.ttf'),
+            url('asset/fonts/Raleway-Medium.ttf'),
+            url('asset/fonts/Raleway-MediumItalic.ttf'),
+            url('asset/fonts/Raleway-Regular.ttf'),
+            url('asset/fonts/Raleway-SemiBold.ttf'),
+            url('asset/fonts/Raleway-SemiBoldItalic.ttf'),
+            url('asset/fonts/Raleway-Thin.ttf'),
+            url('asset/fonts/Raleway-ThinItalic.ttf');
 }
 body
 {
