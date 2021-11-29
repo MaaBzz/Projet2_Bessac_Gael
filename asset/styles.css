@@ -222,7 +222,6 @@ label
    display: flex;
    justify-content: justify;
    align-items: flex-end;
-   text-align: center;
 }
 #info_filtre p i
 {
@@ -234,6 +233,7 @@ label
    font-size: 11px;
    padding-top: 5px;
    margin-top: 20px;
+   text-align: center;
 }
 section
 {
@@ -593,10 +593,11 @@ footer h5
    #page
    {
       width: 100%;
+      font-size: 18px;
    }
    header
    {
-      display: block;
+      flex-direction: column;
    }
    .booki
    {
@@ -654,82 +655,39 @@ footer h5
    }
    #filtres
    {
-      position: absolute;
-      width: 100%;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: space-around;
+      height: 250px;
+      margin-top: -20px;
    }
    .titre
    {
-      position: relative;
-      left: 10px;
+      margin-left: 15px;
+      margin-bottom: -10px;
    }
-   #filtre1 .ig
+   #filtre2, #filtre3, #filtre4
    {
-      position: relative;
-      top: 45px;
-      left: -55px;
-   }
-   #filtre1 a
-   {
-      position: relative;
-      top: 26px;
-   }
-   #filtre2 .ig
-   {
-      position: relative;
-      top: 45px;
-   }
-   #filtre2 a
-   { 
-      position: relative;
-      top: 26px;
-      left: 60px;
-   }
-   #filtre3 .ig
-   {
-      position: relative;
-      top: 95px;
-      right: 257px;
-   }
-   #filtre3 a
-   {
-      position: relative;
-      top: 76px;
-      right: 190px;
-   }
-   #filtre4 .ig
-   {
-      position: relative;
-      top: 145px;
-      right: 368px;
-   }
-   #filtre4 a
-   {
-      display: flex;
-      position: relative;
-      width: 130px;
-      height: 17px;
-      top: 115px;
-      right: 300px;
+      margin-left: -10px;
    }
    #info_filtre
    {
       position: relative;
       height: 80px;
-      top: 150px;
+      top: 210px;
       left: 10px;
    }
    .info
    {
       position: relative;
-      font-size: 17px;
-      top: 19px;
-      left: -17px;
+      top: 20px;
    }
    section
    {
       position: relative;
-      top: 170px;
+      top: 240px;
       height: 2500px;
+      width: 100%;
    }
    article
    {
