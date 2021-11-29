@@ -659,6 +659,7 @@ footer h5
       align-items: flex-start;
       justify-content: space-around;
       height: 250px;
+      width: 100%;
       margin-top: -20px;
    }
    .titre
@@ -684,20 +685,58 @@ footer h5
    }
    section
    {
-      position: relative;
-      top: 240px;
-      height: 2500px;
       width: 100%;
+      height: 2000px;
+      padding-top: 230px;
+      flex-wrap: wrap;
    }
    article
    {
-      position: relative;
-      top: 600px
+      order: 2;
+      background-color: white;
+      margin-top: -720px;
+   }
+   h2
+   {
+      font-size: 22px;
+   }
+   #les_hebergements p
+   {
+      width: 93%;
+      height: 200px;
+   }
+   #les_hebergements img
+   {
+   object-fit: cover;
+   height: 130px;
+   width: 100%;
+   border-radius: 15px 15px 0px 0px;
+   margin-top: 4px;
+   }
+   h4
+   {
+      font-size: 16px;
    }
    aside
    {
-      position: relative;
-      left: -300px;
+      order: 1;
+      border-radius: 0px;
+      margin-left: -10px;
+      height: 550px;
+   }
+   #les_plus_populaires p
+   {
+      width: 90%;
+      height: 130px;
+      margin-left: 10px;
+   }
+   #les_plus_populaires img
+   {
+      object-fit: cover;
+      height: 125px;
+      width: 45%;
+      border-radius: 15px 0px 0px 15px;
+      margin-left: 5px;
    }
    #Activités
    {
