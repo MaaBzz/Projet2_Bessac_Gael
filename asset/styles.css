@@ -146,6 +146,12 @@ label
    border: 2px solid #E6E6E6;
    border-radius: 20px 20px 20px 20px;
 }
+#filtre1 a:hover , #filtre2 a:hover , #filtre3 a:hover , #filtre4 a:hover
+{
+   background-color: #DEEBFF;
+   border: 3px solid #DEEBFF;
+   transform: scale(1.5);
+}
 #filtre2 .ig
 {
    position: relative;
@@ -329,7 +335,7 @@ section a
    flex-wrap: wrap;
    position: relative;
    top: 8px;
-   left: 11px;
+   left: 10px;
    font-size: 15px;
    font-weight: bold;
 }
@@ -338,7 +344,7 @@ section a
    display: flex;
    flex-wrap: wrap;
    position: relative;
-   left: 11px;
+   left: 10px;
 }
 .star
 {
@@ -590,7 +596,7 @@ footer h5
 {
    width: 33%;
 }
-@media screen and (max-width: 425px)
+@media all and (max-width: 425px)
 {
    #page
    {
@@ -604,7 +610,7 @@ footer h5
    .booki
    {
       width: 50%;
-      padding: 0px 100px 0px 140px;
+      padding: 0px 50px 0px 140px;
    }
    nav ul
    {
@@ -614,10 +620,10 @@ footer h5
       border-bottom: 3px solid #F4F4F4;
    }
    nav a
-      {
-         padding-left: 50px;
-         padding-right: 50px;
-      }
+   {
+      padding-left: 50px;
+      padding-right: 50px;
+   }
    nav a:hover
    {
       color: #0065FC;
@@ -638,8 +644,8 @@ footer h5
    FORM
    {
       width: 100%;
-      margin-left: 30px;
-      font-size: 17px;
+      font-size: 15px;
+      padding-left: 30px;
    }
    #reach
    {
@@ -748,6 +754,498 @@ footer h5
       object-fit: cover;
       height: 125px;
       width: 45%;
+      border-radius: 15px 0px 0px 15px;
+      margin-left: 5px;
+   }
+   #Activités
+   {
+      flex-direction: column;
+      height: 1250px;
+      width: 100%;
+   }
+   #Activité
+   {
+      font-size: 22px;
+      margin-left: 25px;
+   }
+   #p1
+   {
+      height: 180px;
+      width: 87%;
+      margin-bottom: 20px;
+      margin-left: 25px;
+   }
+   #img1
+   {
+      height: 140px;
+   }
+   #p2
+   {
+      width: 87%;
+      margin-bottom: 50px;
+      margin-left: 25px;
+   }
+   #img2
+   {
+      height: 150px;
+   }
+   #img3
+   {
+      height: 150px;
+   }
+   #p3
+   {
+      height: 180px;
+      width: 87%;
+      margin-bottom: 20px;
+      margin-left: 25px;
+   }
+   #img4
+   {
+      height: 140px;
+   }
+   #p4
+   {
+      width: 87%;
+      margin-bottom: 10px;
+      margin-left: 25px;
+   }
+   #img5
+   {
+      height: 150px;
+   }
+   #img6
+   {
+      height: 150px;
+   }
+   footer
+   {
+      flex-direction: column;
+      height: 420px;
+      width: 100%;
+   }
+   #A_propos
+   {
+      margin-left: 40px;
+      width: 100%;
+   }
+   #Nos_hébergements
+   {
+      margin-left: 40px;
+      width: 100%;
+      margin-top: -30px;
+   }
+   #Assistance
+   {
+      margin-left: 40px;
+      width: 100%;
+      margin-top: -10px;
+   }
+}
+@media all and (max-width: 375px)
+{
+   #page
+   {
+      width: 100%;
+      font-size: 18px;
+   }
+   header
+   {
+      flex-direction: column;
+   }
+   .booki
+   {
+      width: 50%;
+      padding: 0px 50px 0px 130px;
+   }
+   nav ul
+   {
+      width: 100%;
+      padding-left: 0px;
+      padding-bottom: 10px;
+      border-bottom: 3px solid #F4F4F4;
+   }
+   nav a
+   {
+      padding-left: 40px;
+      padding-right: 40px;
+   }
+   nav a:hover
+   {
+      color: #0065FC;
+      padding-bottom: 10px;
+      border-bottom: 3px solid #0065FC;
+      border-top: white;
+   }
+   h1
+   {
+      margin-left: 15px;
+      font-size: 22px;
+   }
+   .centre
+   {
+      margin-left: 15px;
+      font-size: 18px;
+   }
+   FORM
+   {
+      width: 100%;
+      font-size: 15px;
+      padding-left: 10px;
+   }
+   #reach
+   {
+      display: none;
+   }
+   #reach_tel
+   {
+      display: block;
+      align-self: center;
+      border: 0px solid;
+      background-color: rgb(0, 101, 252);
+      color: white;
+      border-radius: 0px 15px 15px 0px;
+      cursor: pointer;
+      font-weight: bold;
+      padding: 16px 15px;
+   }
+   #filtres
+   {
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: space-around;
+      height: 250px;
+      width: 100%;
+      margin-top: -20px;
+   }
+   .titre
+   {
+      margin-left: 15px;
+      margin-bottom: -10px;
+   }
+   #filtre2, #filtre3, #filtre4
+   {
+      margin-left: -10px;
+   }
+   #info_filtre
+   {
+      position: relative;
+      width: 100%;
+      height: 80px;
+      top: 210px;
+   }
+   #info_filtre p
+   {
+      margin-left: 10px;
+   }
+   .info
+   {
+      position: relative;
+      top: 20px;
+   }
+   section
+   {
+      width: 100%;
+      height: 2000px;
+      padding-top: 230px;
+      flex-wrap: wrap;
+   }
+   article
+   {
+      order: 2;
+      background-color: white;
+      margin-top: -720px;
+   }
+   h2
+   {
+      font-size: 22px;
+   }
+   #les_hebergements p
+   {
+      width: 93%;
+      height: 200px;
+   }
+   #les_hebergements img
+   {
+   object-fit: cover;
+   height: 130px;
+   width: 100%;
+   border-radius: 15px 15px 0px 0px;
+   margin-top: 4px;
+   }
+   h4
+   {
+      font-size: 16px;
+   }
+   aside
+   {
+      order: 1;
+      border-radius: 0px;
+      margin-left: -10px;
+      height: 550px;
+   }
+   h3
+   {
+      margin-left: 10px;
+      font-size: 17px;
+   }
+   #les_plus_populaires p
+   {
+      width: 95%;
+      height: 130px;
+      margin-left: 5px;
+   }
+   #les_plus_populaires img
+   {
+      object-fit: cover;
+      height: 125px;
+      width: 42%;
+      border-radius: 15px 0px 0px 15px;
+      margin-left: 5px;
+   }
+   #Activités
+   {
+      flex-direction: column;
+      height: 1250px;
+      width: 100%;
+   }
+   #Activité
+   {
+      font-size: 22px;
+      margin-left: 25px;
+   }
+   #p1
+   {
+      height: 180px;
+      width: 87%;
+      margin-bottom: 20px;
+      margin-left: 25px;
+   }
+   #img1
+   {
+      height: 140px;
+   }
+   #p2
+   {
+      width: 87%;
+      margin-bottom: 50px;
+      margin-left: 25px;
+   }
+   #img2
+   {
+      height: 150px;
+   }
+   #img3
+   {
+      height: 150px;
+   }
+   #p3
+   {
+      height: 180px;
+      width: 87%;
+      margin-bottom: 20px;
+      margin-left: 25px;
+   }
+   #img4
+   {
+      height: 140px;
+   }
+   #p4
+   {
+      width: 87%;
+      margin-bottom: 10px;
+      margin-left: 25px;
+   }
+   #img5
+   {
+      height: 150px;
+   }
+   #img6
+   {
+      height: 150px;
+   }
+   footer
+   {
+      flex-direction: column;
+      height: 420px;
+      width: 100%;
+   }
+   #A_propos
+   {
+      margin-left: 40px;
+      width: 100%;
+   }
+   #Nos_hébergements
+   {
+      margin-left: 40px;
+      width: 100%;
+      margin-top: -30px;
+   }
+   #Assistance
+   {
+      margin-left: 40px;
+      width: 100%;
+      margin-top: -10px;
+   }
+}
+@media all and (max-width: 320px)
+{
+   #page
+   {
+      width: 100%;
+      font-size: 18px;
+   }
+   header
+   {
+      flex-direction: column;
+   }
+   .booki
+   {
+      width: 50%;
+      padding: 0px 50px 0px 120px;
+   }
+   nav ul
+   {
+      width: 100%;
+      padding-left: 0px;
+      padding-bottom: 10px;
+      border-bottom: 3px solid #F4F4F4;
+   }
+   nav a
+   {
+      padding-left: 30px;
+      padding-right: 30px;
+   }
+   nav a:hover
+   {
+      color: #0065FC;
+      padding-bottom: 10px;
+      border-bottom: 3px solid #0065FC;
+      border-top: white;
+   }
+   h1
+   {
+      margin-left: 15px;
+      font-size: 22px;
+   }
+   .centre
+   {
+      margin-left: 15px;
+      font-size: 16px;
+   }
+   FORM
+   {
+      width: 100%;
+      font-size: 12px;
+      padding-left: 2px;
+   }
+   #reach
+   {
+      display: none;
+   }
+   #reach_tel
+   {
+      display: block;
+      align-self: center;
+      border: 0px solid;
+      background-color: rgb(0, 101, 252);
+      color: white;
+      border-radius: 0px 15px 15px 0px;
+      cursor: pointer;
+      font-weight: bold;
+      padding: 16px 15px;
+   }
+   #filtres
+   {
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: space-around;
+      height: 250px;
+      width: 100%;
+      margin-top: -20px;
+   }
+   .titre
+   {
+      margin-left: 15px;
+      margin-bottom: -10px;
+   }
+   #filtre2, #filtre3, #filtre4
+   {
+      margin-left: -10px;
+   }
+   #info_filtre
+   {
+      position: relative;
+      width: 100%;
+      height: 80px;
+      top: 210px;
+   }
+   #info_filtre p
+   {
+      margin-left: 10px;
+   }
+   .info
+   {
+      position: relative;
+      top: 20px;
+   }
+   section
+   {
+      width: 100%;
+      height: 2000px;
+      padding-top: 230px;
+      flex-wrap: wrap;
+   }
+   article
+   {
+      order: 2;
+      background-color: white;
+      margin-top: -720px;
+   }
+   h2
+   {
+      font-size: 22px;
+   }
+   #les_hebergements p
+   {
+      width: 93%;
+      height: 200px;
+   }
+   #les_hebergements img
+   {
+      object-fit: cover;
+      height: 130px;
+      width: 100%;
+      border-radius: 15px 15px 0px 0px;
+      margin-top: 4px;
+   }
+   h4
+   {
+      font-size: 16px;
+   }
+   aside
+   {
+      order: 1;
+      border-radius: 0px;
+      margin-left: -10px;
+      height: 550px;
+   }
+   h3
+   {
+      margin-left: 10px;
+      font-size: 17px;
+   }
+   #les_plus_populaires p
+   {
+      width: 90%;
+      height: 130px;
+      margin-left: 10px;
+   }
+   #les_plus_populaires img
+   {
+      object-fit: cover;
+      height: 125px;
+      width: 42%;
       border-radius: 15px 0px 0px 15px;
       margin-left: 5px;
    }
