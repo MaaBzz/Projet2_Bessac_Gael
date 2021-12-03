@@ -1,26 +1,26 @@
 @font-face
 {
    font-family: 'Raleway';
-   src:  url('asset/fonts/Raleway.ttf'), format(ttf)
-         url('asset/fonts/Raleway-Black.ttf'), format(ttf)
-         url('asset/fonts/Raleway-BlackItalic.ttf'), format(ttf)
-         url('asset/fonts/Raleway-Bold.ttf'), format(ttf)
-         url('asset/fonts/Raleway-BoldItalic.ttf'), format(ttf)
-         url('asset/fonts/Raleway-ExtraBold.ttf'), format(ttf)
-         url('asset/fonts/Raleway-ExtraBoldItalic.ttf'), format(ttf)
-         url('asset/fonts/Raleway-ExtraLight.ttf'), format(ttf)
-         url('asset/fonts/Raleway-ExtraLightItalic.ttf'), format(ttf)
-         url('asset/fonts/Raleway-Italic'), format(ttf)
-         url('asset/fonts/Raleway-Italic-VariableFont_wght.ttf'), format(ttf)
-         url('asset/fonts/Raleway-Light.ttf'), format(ttf)
-         url('asset/fonts/Raleway-LightItalic.ttf'), format(ttf)
-         url('asset/fonts/Raleway-Medium.ttf'), format(ttf)
-         url('asset/fonts/Raleway-MediumItalic.ttf'), format(ttf)
-         url('asset/fonts/Raleway-Regular.ttf'), format(ttf)
-         url('asset/fonts/Raleway-SemiBold.ttf'), format(ttf)
-         url('asset/fonts/Raleway-SemiBoldItalic.ttf'), format(ttf)
-         url('asset/fonts/Raleway-Thin.ttf'), format(ttf)
-         url('asset/fonts/Raleway-ThinItalic.ttf'), format(ttf);
+   src:  url('asset/fonts/Raleway.ttf') format('ttf'),
+         url('asset/fonts/Raleway-Black.ttf') format('ttf'),
+         url('asset/fonts/Raleway-BlackItalic.ttf') format('ttf'),
+         url('asset/fonts/Raleway-Bold.ttf') format('ttf'),
+         url('asset/fonts/Raleway-BoldItalic.ttf') format('ttf'),
+         url('asset/fonts/Raleway-ExtraBold.ttf') format('ttf'),
+         url('asset/fonts/Raleway-ExtraBoldItalic.ttf') format('ttf'),
+         url('asset/fonts/Raleway-ExtraLight.ttf') format('ttf'),
+         url('asset/fonts/Raleway-ExtraLightItalic.ttf') format('ttf'),
+         url('asset/fonts/Raleway-Italic') format('ttf'),
+         url('asset/fonts/Raleway-Italic-VariableFont_wght.ttf') format('ttf'),
+         url('asset/fonts/Raleway-Light.ttf') format('ttf'),
+         url('asset/fonts/Raleway-LightItalic.ttf') format('ttf'),
+         url('asset/fonts/Raleway-Medium.ttf') format('ttf'),
+         url('asset/fonts/Raleway-MediumItalic.ttf') format('ttf'),
+         url('asset/fonts/Raleway-Regular.ttf') format('ttf'),
+         url('asset/fonts/Raleway-SemiBold.ttf') format('ttf'),
+         url('asset/fonts/Raleway-SemiBoldItalic.ttf'), format('ttf'),
+         url('asset/fonts/Raleway-Thin.ttf') format('ttf'),
+         url('asset/fonts/Raleway-ThinItalic.ttf') format('ttf'); 
    font-weight: normal;
    font-style: normal;
 }
@@ -228,7 +228,6 @@ label
 {
    padding-top: 35px;
    display: flex;
-   justify-content: justify;
    align-items: flex-end;
 }
 #info_filtre p i
@@ -721,11 +720,11 @@ footer h5
    }
    #les_hebergements img
    {
-   object-fit: cover;
-   height: 130px;
-   width: 100%;
-   border-radius: 15px 15px 0px 0px;
-   margin-top: 4px;
+      object-fit: cover;
+      height: 130px;
+      width: 100%;
+      border-radius: 15px 15px 0px 0px;
+      margin-top: 4px;
    }
    h4
    {
